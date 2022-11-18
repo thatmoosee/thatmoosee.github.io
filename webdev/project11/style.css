@@ -1,0 +1,37 @@
+body {
+  background-color: 	#ffffff;
+  width:100%;
+  margin: auto;
+  text-align: center;
+}
+#direction{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#direction {
+  float: left;
+}
+
+#direction a  {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#direction a:hover {
+  background-color: #111;
+}
+table, th, td { 
+  border: 1px solid black;
+  border-collapse: collapse;
+} 
+th, td {
+  padding: 3px;
+  text-align: center;    
+} 
